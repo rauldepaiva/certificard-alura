@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+  background-image: url("https://images.pexels.com/photos/5676485/pexels-photo-5676485.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  font-family: Roboto, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background: #FAF5F5;
+  margin: 64px;
+  border-radius: 10px;
+  box-shadow: 6px 6px 6px #6F98B0;
+  color: #141617;
+  padding: 64px;
+  min-width: 500px;
+  width: 1000px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 50%;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px #EBEBEB;
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #FAF5F5;
+  border-radius: 100px;
+  border: 2px solid #141617;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(140deg, #9CD2E6 30%, #63C3E6 50%);
+  margin-top: 32px;
+  padding: 32px 64px 32px 32px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(14, 14, 14, 0.2);
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.dark {
+  background: linear-gradient(0, rgba(35, 50, 56, 0.5), rgba(35, 50, 56, 0.5)),
+    url(https://images.pexels.com/photos/5676485/pexels-photo-5676485.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+
+.dark .container {
+  background: #161E24;
+  color: #FAF5F5;
+  box-shadow: none;
+}
+
+.dark .perfil-foto {
+  box-shadow: none;
+}
+
+.dark button {
+  background: #161E24;
+  color: #FAF5F5;
+  border: 2px solid #FAF5F5;
+}
+
+.dark .projetos {
+  background: linear-gradient(320deg, #80BACF 30%, #3B7B9C 80%);
+}
